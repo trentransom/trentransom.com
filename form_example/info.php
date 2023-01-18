@@ -1,3 +1,5 @@
+<html>
+  <body>
 <?php
   $connect = mysql_connect('localhost', 'root', 'paperantvivaldi'); 
   if (!connect) {'Connection Failed:'.mysql_error());
@@ -7,3 +9,5 @@
   echo "Your information was added to the database.";
   mysql_close($connect);
 ?>
+</body>
+</html>
