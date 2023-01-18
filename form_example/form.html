@@ -1,43 +1,12 @@
-<!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>PHP form submission example</title>
-    <style>
-      form {
-        width: 420px;
-      }
-
-      div {
-        margin-bottom: 20px;
-      }
-
-      label {
-        display: inline-block;
-        width: 240px;
-        text-align: right;
-        padding-right: 10px;
-      }
-
-      button, input {
-        float: right;
-      }
-    </style>
-  </head>
+<html>
   <body>
-    <form method="post" action='/thanks_page' name="name" netlify>
-      <div>
-        <label for="name">Enter your username</label>
-        <input type="text" name="name"/>
-      </div>
-      <div>
-        <label for="email">Enter your email</label>
-        <input type="text" name="email"/>
-      </div>
-      <div>
-        <button>Send my greetings</button>
-      </div>
+    <form action="/thanks_page.html" method="post" name="Form Test" netlify>
+      <p>Username:
+        <input type="text" name="username" size="15" maxlength="30" />
+      </p>
+      <p>Password:
+        <input type="password" name="password" size="15" maxlength="30" />
+      </p>
     </form>
   </body>
 </html>
