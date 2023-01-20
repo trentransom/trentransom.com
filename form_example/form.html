@@ -7,6 +7,7 @@
       <p>Password:
         <input type="password" name="password" size="15" maxlength="30" />
       </p>
+    </form>
     <form action="/thanks_page.html" method="post" name="Favorite Music" netlify>
       <p>
         Please select your favorite genre:
@@ -16,6 +17,42 @@
         <input type="radio" name="genre" value="jazz"/> Jazz
       </p>
     </form>
+    <form action="/thanks_page.html" method="post" name="Favorite Service" netlify>
+      <p>
+        please select your favorite music service(s): <br />
+        <input type="checkbox" name="service" value="itunes" />
+        <input type="checkbox" name="service" value="spotify" />
+        <input type="checkbox" name="service" value="pandora" />
+      </p>
     </form>
+    <form action="/thanks_page.html">
+      <p>What device do you listen to music on</p>
+        <select name="devices">
+          <option value="ipod">iPod</option>
+          <option value="radio">Radio</option>
+          <option value="computer">Computer</option>
+        </select>
+      </p>
+    </form>
+    <form action="/thanks_page.html" method="post" name="Instruments" netlify>
+      <p>
+        Do you play any of the following instruments?
+      </p>
+      <select name="instruments" size="3" multiple="multiple">
+        <option value="guitar" selected="selected">Guitar</option>
+        <option value="drums">Drums</option>
+        <option value="keyboard">Keyboard</option>
+        <option value="bass">Bass</option>
+        <input type="submit" value="submit" name="submit" />
+      </select>
+    </form>
+    <form action="/thanks_page.html" method="post" name="File" netlify>
+      <p>Upload your Resume:</p>
+      <input type="file" name="resume" /><br />
+      <input type="submit" value="Upload" />
+    </form>
+    
+      
+  
   </body>
 </html>
