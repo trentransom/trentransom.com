@@ -1,6 +1,6 @@
 body {
     font-family:Arial, Helvetica, sans-serif;
-    background-color: rgb(185, 179, 175)
+    background-color:#916831
 }
 h1 {
     color:rgb(255,255,255);
@@ -9,4 +9,7 @@ h1 {
 }
 p {
     color:red
+}
+ul.beanslist {
+    background-color:#12d4a8
 }
