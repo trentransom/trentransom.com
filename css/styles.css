@@ -14,5 +14,7 @@ ul.beanslist {
     background-color:#12d4a8
 }
 /* Bio Page */
-
+p.bio {
+    font-family:'Raleway', sans-serif;
+}
 
