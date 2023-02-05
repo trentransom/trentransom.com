@@ -1,15 +1,18 @@
+/* Welcome Page */
 body {
     font-family:Arial, Helvetica, sans-serif;
     background-color:#e0dfb1
 }
-h1 {
+h1.Welcome {
     color: #000000;
     background-color: rgba(255, 255, 255, 0.5)
 }
-p {
+.Welcome_text {
     color:red
 }
 ul.beanslist {
     background-color:#12d4a8
 }
+/* Bio Page */
+
 
