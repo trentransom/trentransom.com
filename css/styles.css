@@ -21,3 +21,6 @@ p.bio {
 .bio_headers {
     font-style:oblique
 }
+#Name {
+    text-decoration:blink
+}
