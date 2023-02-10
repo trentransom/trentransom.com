@@ -16,7 +16,8 @@ ul.beanslist {
 /* Bio Page */
 p.bio {
     font-family:'Playfair Display', sans-serif;
-    font: size 16px
+    font: size 16px;
+    line-height:1.4em 
 }
 .bio_headers {
     font-style:oblique
