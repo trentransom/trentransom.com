@@ -18,4 +18,6 @@ p.bio {
     font-family:'Playfair Display', sans-serif;
     font: size 16px
 }
-
+.bio_headers {
+    font-style:oblique
+}
