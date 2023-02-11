@@ -13,6 +13,9 @@ h1.Welcome {
 ul.beanslist {
     background-color:#12d4a8
 }
+.caption {
+    vertical-align: middle;
+}
 /* Bio Page */
 p.bio {
     font-family:'Playfair Display', sans-serif;
