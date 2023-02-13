@@ -33,5 +33,5 @@ p.bio:first-letter {
     font-size:large
 }
 p.bio:first-line {
-    font-weight:bold
+    font: size 200%;
 }
