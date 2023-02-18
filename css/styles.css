@@ -31,6 +31,9 @@ ul.beanslist {
     vertical-align: middle;
 }
 /* Bio Page */
+body.bio {
+    text-align: center;
+}
 p.bio {
     font-family:'Playfair Display', sans-serif;
     font: size 16px;
