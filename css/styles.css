@@ -33,6 +33,5 @@ p.bio:first-letter {
     font-size:large
 }
 p.bio:first-line {
-    font-size: 500%
+    text-indent: 20px;
 }
-
