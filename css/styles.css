@@ -3,6 +3,17 @@ body {
     font-family:'Playfair Display', sans-serif;
     background-color:#e0dfb1
 }
+a:link {
+    color:deeppink;
+    text-decoration:none;
+}
+a:visited {
+    color:#000000
+}
+a:hover {
+    color:cyan;
+    text-decoration:underline;
+}
 h1.Welcome {
     color: #000000;
     background-color: rgba(255, 255, 255, 0.5)
