@@ -10,7 +10,7 @@ a:link {
 .links {
     text-align: center;
 }
-#gallery {
+.nav_links {
     border-width: 2px;
     padding: 2px;
     border-style: solid;
