@@ -28,6 +28,7 @@ h1.title {
     text-align:center;
     height:4em;
     width:50%;
+    margin:0 auto;
 }
 .Welcome_text {
     color:red
