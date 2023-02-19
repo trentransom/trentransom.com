@@ -15,9 +15,6 @@ a:link {
     padding: 2px;
     border-style: solid;
 }
-a:visited {
-    color:#000000
-}
 a:hover {
     color:cyan;
     text-decoration:underline;
