@@ -7,6 +7,12 @@ a:link {
     color:deeppink;
     text-decoration:none;
 }
+.links {
+    text-align: center;
+}
+#gallery {
+    border-width: 2px
+}
 a:visited {
     color:#000000
 }
