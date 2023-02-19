@@ -3,7 +3,7 @@ body {
     font-family:'Playfair Display', sans-serif;
     background-color:#e0dfb1
 }
-a:link {
+a:link, a:visited {
     color:deeppink;
     text-decoration:none;
 }
