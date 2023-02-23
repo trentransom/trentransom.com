@@ -7,13 +7,20 @@ a:link, a:visited {
     color:deeppink;
     text-decoration:none;
 }
-.links {
-    text-align: center;
+div em {
+    font-size:300%
 }
-.nav_links {
-    border-width: 2px;
-    padding: 2px;
-    border-style: solid;
+div.nav_links {
+    text-align: center;
+    width: 700px;
+    margin: 2px auto 2px auto;
+
+}
+a.nav_links { 
+    border-width:2px;
+    border-style:solid;
+    padding: 10px;
+    margin: 30px;
 }
 a:hover {
     color:cyan;
@@ -23,10 +30,9 @@ h1.title {
     color: #000000;
     background-color: rgba(255, 255, 255, 0.5);
     text-align:center;
-    vertical-align: center;
-    height:4em;
+
     width:50%;
-    margin:0 auto;
+    margin:10px auto 10px auto;
 }
 .Welcome_text {
     color:red
@@ -43,7 +49,7 @@ body.bio {
 }
 p.bio {
     font-family:'Playfair Display', sans-serif;
-    font: size 16px;
+    font-size: 16px;
     line-height:1.5em;
     max-width: 50em;
     background-color: pink;
