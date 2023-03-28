@@ -1,30 +1,45 @@
 /* Welcome Page */
 body {
     font-family:'Playfair Display', sans-serif;
-    background-color:#e0dfb1
+    background-color:#e0dfb1;
+    background-image: url("../images/20220318_140821.jpg")
 }
-a:link, a:visited {
-    color:deeppink;
+div.header {
+    position:fixed;
+    top:0px;
+    width:100%;
+}
+ul.nav_links {
+    width:50%;
+    padding:.25em 1em .25em 1em;
+    text-align:center;
+    margin:0px auto 0px auto;
+    border-top:2px solid #000;
+    border-bottom:1px solid #000;
+}
+li.nav_links{
+    display:inline;
+    margin:0px 5%;
+    font-size:120%
+}
+.center_marker {
+    text-align:center;
+    margin:-5px auto -5px auto;
+}
+a:link {
     text-decoration:none;
-}
-div em {
-    font-size:300%
-}
-div.nav_links {
-    text-align: center;
-    width: 700px;
-    margin: 2px auto 2px auto;
-
-}
-a.nav_links { 
-    border-width:2px;
-    border-style:solid;
-    padding: 10px;
-    margin: 30px;
+    color:#0377fc;
 }
 a:hover {
-    color:cyan;
     text-decoration:underline;
+}
+a:visited {
+    color:#000;
+    text-decoration:none;
+}
+li.nav_links a:visited{
+    text-decoration:none;
+    color:#0377fc;
 }
 h1.title {
     color: #000000;
