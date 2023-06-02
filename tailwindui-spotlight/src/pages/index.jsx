@@ -12,10 +12,10 @@ import {
   LinkedInIcon,
   TwitterIcon,
 } from '@/components/SocialIcons'
-import logoAirbnb from '@/images/logos/airbnb.svg'
-import logoFacebook from '@/images/logos/facebook.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
-import logoStarbucks from '@/images/logos/starbucks.svg'
+import logoAmadeus from '@/images/logos/amadeus.svg'
+import logoCityStrings from '@/images/logos/citystrings.svg'
+import logoViolin from '@/images/logos/violinTeacher.svg'
+import logoFreelance from '@/images/logos/freelance.svg'
 import image1 from '@/images/photos/image-1.jpg'
 import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
@@ -139,36 +139,40 @@ function Newsletter() {
 function Resume() {
   let resume = [
     {
-      company: 'Planetaria',
-      title: 'CEO',
-      logo: logoPlanetaria,
-      start: '2019',
+      company: 'Private Studio',
+      title: 'Violin Teacher',
+      logo: logoViolin,
+      start: '2014',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear(),
       },
     },
     {
-      company: 'Airbnb',
-      title: 'Product Designer',
-      logo: logoAirbnb,
+      company: 'Freelance',
+      title: 'Violinist and Violist',
+      logo: logoFreelance,
       start: '2014',
-      end: '2019',
+      end: {
+        label: 'Present',
+        dateTime: new Date().getFullYear(),
+      },
     },
     {
-      company: 'Facebook',
-      title: 'iOS Software Engineer',
-      logo: logoFacebook,
-      start: '2011',
-      end: '2014',
+      company: 'Amadeus Music School',
+      title: 'Violin and Piano Teacher',
+      logo: logoAmadeus,
+      start: '2022',
+      end: '2023',
     },
     {
-      company: 'Starbucks',
-      title: 'Shift Supervisor',
-      logo: logoStarbucks,
-      start: '2008',
-      end: '2011',
+      company: 'City Strings and Piano',
+      title: 'Violin and Piano Teacher',
+      logo: logoCityStrings,
+      start: '2021',
+      end: '2022',
     },
+    
   ]
 
   return (
