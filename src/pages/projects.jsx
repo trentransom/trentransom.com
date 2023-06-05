@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import logoAnimaginary from '@/images/logos/animaginary.svg'
+import logoSpotify from '@/images/logos/spotify.svg'
 import logoCosmos from '@/images/logos/cosmos.svg'
 import logoHelioStream from '@/images/logos/helio-stream.svg'
 import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
@@ -11,18 +11,18 @@ import logoPlanetaria from '@/images/logos/planetaria.svg'
 
 const projects = [
   {
-    name: 'Planetaria',
+    name: 'Spotify Popularity Predictor',
     description:
-      'Creating technology to empower civilians to explore space on their own terms.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
-    logo: logoPlanetaria,
+      'Machine Learning model which predicts whether a song will appear in the top 50 songs on the Spotify charts.',
+    link: { href: 'https://github.com/AndrewRBader/CU-Fintech_Project-2', label: 'github.com' },
+    logo: logoSpotify,
   },
   {
-    name: 'Animaginary',
+    name: 'Estate Planning dApp',
     description:
-      'High performance web animation library, hand-written in optimized WASM.',
+      'Streamlit app which connects to ',
     link: { href: '#', label: 'github.com' },
-    logo: logoAnimaginary,
+    logo: logoPlanetaria,
   },
   {
     name: 'HelioStream',
