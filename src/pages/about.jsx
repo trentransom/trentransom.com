@@ -65,30 +65,22 @@ export default function About() {
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                I’ve loved making things for as long as I can remember, and
-                wrote my first program when I was 6 years old, just two weeks
-                after my mom brought home the brand new Macintosh LC 550 that I
-                taught myself to type on.
+                After spending my life working on my musical abilities I felt a bit empty. I have been playing a musical instrument for 20 years and it became what I did without question. I spent a lot of time practicing before college but I wasn't completely focused on it.
               </p>
               <p>
-                The only thing I loved more than computers as a kid was space.
-                When I was 8, I climbed the 40-foot oak tree at the back of our
-                yard while wearing my older sister’s motorcycle helmet, counted
-                down from three, and jumped — hoping the tree was tall enough
-                that with just a bit of momentum I’d be able to get to orbit.
+                When I applied for colleges I didn't make music a priority. I applied to some for music, some for physics, and some for both. I ended up starting at New York University as a music major taking classes for a physics double major. I was much more involved in the music scene than the physics scene so I built up my network there. After two years I had strong connections in the music department and nearly none in physics. I ended up dropping the physics major and focusing solely on music. I think ultimately the reason is that I did not build roots in the physics department and ended up fending for myself two years in. That became unmanageable.
               </p>
               <p>
-                I spent the next few summers indoors working on a rocket design,
-                while I recovered from the multiple surgeries it took to fix my
-                badly broken legs. It took nine iterations, but when I was 15 I
-                sent my dad’s Blackberry into orbit and was able to transmit a
-                photo back down to our family computer from space.
+                At the time this was the right choice for me. I was getting much better at the violin and became hyper-focused on music. I read histories and listened to old recordings constantly. At the end of my time at NYU, I met the most important mentor in my life Mr. I Hao Lee. I studied with him all summer after my undergrad and I want to DePaul to study with him. He took my violin playing to the next level. But much more than that he reframed my idea of what it meant to make it or to have a career. He made me read Good to Great which I've read three times now. He led me to realize what I could be great at. It is not an overstatement to say that he changed my life.
               </p>
               <p>
-                Today, I’m the founder of Planetaria, where we’re working on
-                civilian space suits and manned shuttle kits you can assemble at
-                home so that the next generation of kids really <em>can</em>{' '}
-                make it to orbit — from the comfort of their own backyards.
+                After three years at DePaul with Mr. Lee I started a third degree at Juilliard. This time in viola. This was the time for me to really build my career as a musician. I met another great mentor in my life, Ms. Carol Rodland and I was becoming professional.
+              </p>
+              <p>
+                A lot changed in my life at this time, I moved to a new city, I was starting a new instrument, I was starting at a new school, and I met a new girlfriend (who would become my wife). At this point something didn't feel right. My priorities started to change. When I saw into the future into my life as a musician I didn't like what I saw. I don't like how underpaid musicians are. I don't like how many people in the music world are so snobby (there was a time when I was very snobby too). I don't like how classical music organizations have their heads in the clouds and can't change with the world around them. I don't like how music schools never advertise their job placement rates or average salary after graduation. I could go on and on and on. Somehow this all hit me at once and I wanted to get out. I still like making music but I can't see myself being part of that world for my career. So I dropped out of Juilliard in search of something else to do.
+              </p>
+              <p>
+              When I took physics classes I used python (coding language) a lot in the labs. I really enjoyed that and I got quite good at it but never continued after those two years. I wanted to go back and revisit that so I went to look for coding bootcamps that would use python. I found the Fintech bootcamp from Columbia University and I signed up. I got to fully dive into the world of coding that I only scratched the surface of in college and I loved it. There is something about coding that really taps into what I love about making music but that's a subject for another article. I am so excited to be starting a new career as a software engineer.
               </p>
             </div>
           </div>
