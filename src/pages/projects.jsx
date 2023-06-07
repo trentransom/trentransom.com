@@ -7,7 +7,7 @@ import logoSpotify from '@/images/logos/spotify.svg'
 import logoCosmos from '@/images/logos/cosmos.svg'
 import logoHelioStream from '@/images/logos/helio-stream.svg'
 import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
+import logoEstate from '@/images/logos/estate_planning.svg'
 
 const projects = [
   {
@@ -20,30 +20,9 @@ const projects = [
   {
     name: 'Estate Planning dApp',
     description:
-      'Streamlit app which connects to ',
-    link: { href: '#', label: 'github.com' },
-    logo: logoPlanetaria,
-  },
-  {
-    name: 'HelioStream',
-    description:
-      'Real-time video streaming library, optimized for interstellar transmission.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoHelioStream,
-  },
-  {
-    name: 'cosmOS',
-    description:
-      'The operating system that powers our Planetaria space shuttles.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoCosmos,
-  },
-  {
-    name: 'OpenShuttle',
-    description:
-      'The schematics for the first rocket I designed that successfully made it to orbit.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoOpenShuttle,
+      'Streamlit app which can be used to create a decentralized will. Uses Solidity, OpenZeppelin, and Web3.py',
+    link: { href: 'https://github.com/AndrewRBader/Project3_CU-fintech', label: 'github.com' },
+    logo: logoEstate,
   },
 ]
 
@@ -62,7 +41,7 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Projects - Spencer Sharp</title>
+        <title>Projects - Trent Ransom</title>
         <meta
           name="description"
           content="Things I’ve made trying to put my dent in the universe."
