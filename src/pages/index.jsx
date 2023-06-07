@@ -269,7 +269,7 @@ export default function Home({ articles }) {
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             I’m Trent, a classical musician and software engineer based in New York
-            City. As a violinist and violist, I have performed in citied accross 
+            City. As a violinist and violist, I have performed in cities across 
             the world and as a soloist on the main stage at Carnegie Hall. With that same
             fervor and artistry I am now telling stories with data and software solutions.
           </p>
