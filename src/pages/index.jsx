@@ -172,7 +172,7 @@ function Resume() {
       start: '2021',
       end: '2022',
     },
-    
+
   ]
 
   return (
@@ -199,9 +199,8 @@ function Resume() {
               <dt className="sr-only">Date</dt>
               <dd
                 className="ml-auto text-xs text-zinc-400 dark:text-zinc-500"
-                aria-label={`${role.start.label ?? role.start} until ${
-                  role.end.label ?? role.end
-                }`}
+                aria-label={`${role.start.label ?? role.start} until ${role.end.label ?? role.end
+                  }`}
               >
                 <time dateTime={role.start.dateTime ?? role.start}>
                   {role.start.label ?? role.start}
@@ -269,7 +268,7 @@ export default function Home({ articles }) {
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             I’m Trent, a classical musician and software engineer based in New York
-            City. As a violinist and violist, I have performed in cities across 
+            City. As a violinist and violist, I have performed in cities across
             the world and as a soloist on the main stage at Carnegie Hall. With that same
             fervor and artistry I am now telling stories with data and software solutions.
           </p>
@@ -301,7 +300,7 @@ export default function Home({ articles }) {
             ))}
           </div>
           <div className="space-y-10 lg:pl-16 xl:pl-24">
-            <Newsletter />
+            {/* <Newsletter /> */}
             <Resume />
           </div>
         </div>
